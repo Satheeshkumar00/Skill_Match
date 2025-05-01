@@ -1,0 +1,28 @@
+{
+  "name": "skill_match",
+  "version": "1.0.0",
+  "description": "An application to match mentor and mentee",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satheeshkumar00/Skill_Match.git"
+  },
+  "author": "Satheeshkumar G J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satheeshkumar00/Skill_Match/issues"
+  },
+  "homepage": "https://github.com/Satheeshkumar00/Skill_Match#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10"
+  }
+}
